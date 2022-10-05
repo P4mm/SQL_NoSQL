@@ -1,0 +1,31 @@
+## SQL e NoSQL
+
+​	O conceito de modelo relacional (SQL) se baseia no fato de que todos os dados sejam guardados em tabelas. Ao modelo não-relacional (NoSQL) se aplica o conceito de schema: uma chave de valor é que é utilizada para recuperar valores, conjunto de colunas ou documentos.
+
+​	Os dados relacionados por necessidade de muito tempo, porém, é um dado extraordinário da história viu-se a necessidade de uma gama maior de dados, e que eram mais escaláveis. Foi o modelo NoSQL, um complemento, com dados criados que não são criados contextos e com soluções mais viáveis para o grande volume de dados. NoSQL não significa SQL, na verdade não significa relacional, posteriormente estendido para Not Only SQL - Não Somente SQL.
+
+​	O NoSQL não veio para substituir o SQL, mas sim para oferecer mais uma alternativa de um banco de dados mais flexível no suporte de dados. Ele veio para atender o que a gente não precisou fazer com nenhum modelo relacional, o absurdo de um grande volume de informação, se necessário criá-lo. No modelo NoSQL é bastante fácil de realizar consultas em relação aos dados, aceita todo tipo de dado contar que é bem mais fácil de realizar consultas.
+
+Sobre o NoSQL, como encontrar algo armazenado quando não se sabe a estrutura?
+
+- A consulta no NoSQL deve ser pensada desde o início, por exemplo definindo como chaves, pois é por onde vamos pesquisar. A aplicação também deve prever toda a modelagem que será no banco de dados NoSQL.
+
+Conhecer um SGBD de cada tipo é o suficiente para iniciar?
+
+- Você não precisa precisamente de conhecer todos, mas na verdade deve entender o conceito de SQL, e banco de dados, conhecer a essência, chave-valor, entre outros. Devemos observar qual a nossa necessidade no momento com a curvatura de aprender, pra depois poder ter como boas práticas ao praticar.
+
+Vale destacar ainda que os bancos de dados de relacionamento seguem o modelo ID para preservar a integridade de uma transação AC. Este conjunto de procedimentos é determinado em quatro propriedades, e são elas:
+
+Atomicidade: as ações que compõem a ação para a entrega devem ser concluídas com sucesso efetivada. Se esta operação operar, será feito o rollback.
+
+Consistências: Todas as regras/restrições não são totalmente consistentes para o banco de dados compatível com o banco de dados compatível com outras formas consistentes.
+
+Isolamento: neste caso, uma propriedade de isolamento garante que a transição não será interferida por nenhuma outra operação concorrente.
+
+Durabilidade: Os resultados de uma impressão são permanentes, ou o que foi salvo não será mais perdido.
+
+Todos esses diferentes recursos ajudam a manter os SGBDs sempre em uma posição de predominância entre os mais diversos tipos de ambientes computacionais, mas ao mesmo tempo de problemas relacionados, não impedem a aparência de determinados problemas, isso deve-se ao grande crescimento do volume de dados relacionados nos bancos de dados de dados de algumas organizações.
+
+
+
+- O Engenheiro de Dados é o responsável pela criação do pipeline que transforma os dados brutos que estão nos mais variados formatos, desde bancos de dados transacionais até arquivos de texto, em um formato que permita ao Cientista de Dados começar seu trabalho. Cabe também ao Engenheiro de Dados manter este pipeline em execução para que os dados possam ser coletados no momento certo, com o nível de segurança exigido pela empresa. O trabalho do Engenheiro de dados é tão importante quanto o trabalho do Cientista de Dados e vem ganhando cada vez mais visibilidade dentro das empresas.
